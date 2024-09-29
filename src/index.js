@@ -19,7 +19,7 @@ export default function Zimlet(context) {
 	
 	exports.init = function init() {	
 		//Here we load the moreMenu Zimlet item into the UI slot:
-		plugins.register('slot::calendar-appointment-edit-video-call', moreMenu);
+		plugins.register('slot::calendar-appointment-edit-location', moreMenu);
 	};
 
 	return exports;
